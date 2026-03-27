@@ -3,7 +3,7 @@ cask "bifrost" do
   name "bifrost"
   desc "Session context bridge between AI coding tools"
   homepage "https://github.com/kogungor/bifrost"
-  version "0.7.0"
+  version "0.8.0"
 
   livecheck do
     skip "Auto-generated on release."
@@ -14,22 +14,22 @@ cask "bifrost" do
   on_macos do
     on_intel do
       url "https://github.com/kogungor/bifrost/releases/download/v#{version}/bifrost_darwin_amd64.tar.gz"
-      sha256 "d73116837c914baae402351ee046bbb410d0f55f3fbb8bd528562c269a1d62ff"
+      sha256 "1a7c5c82052784d2c57f082d951dcb8ae3f845a813c46a085c544bef22cf0e1a"
     end
     on_arm do
       url "https://github.com/kogungor/bifrost/releases/download/v#{version}/bifrost_darwin_arm64.tar.gz"
-      sha256 "4cdaa476c78e4007dedaa99b432eaac6acc666c8d8555309b7bd4a16f4c22b44"
+      sha256 "ebefccb38e02a870e41c444b3a83d1ff3cc32431ac59edafcb0d7cd0f84a7c7c"
     end
   end
 
   on_linux do
     on_intel do
       url "https://github.com/kogungor/bifrost/releases/download/v#{version}/bifrost_linux_amd64.tar.gz"
-      sha256 "87c23d78b00305fee61004236c30a06a5a6ebbd6e336c61296d0a05ed80720c9"
+      sha256 "65a92352d9fb3ecde69da8ca0fad2abb3e51b1d181ff7c13a62c1d5ee7acfd36"
     end
     on_arm do
       url "https://github.com/kogungor/bifrost/releases/download/v#{version}/bifrost_linux_arm64.tar.gz"
-      sha256 "95443a4546c06eb06cb3e23ebfa1e150dd5820be20881c28cb9719f3343cbc73"
+      sha256 "52697944eb77c58067bd2671cb0ccbeac1cca76d3996970b72d49efa4e674871"
     end
   end
 
